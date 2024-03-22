@@ -4,7 +4,7 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-We are using pnpm in this project so ensure you have it installed by making sure you are using a nodejs version later than 16.17.0 and have set
+I am using pnpm in this project so ensure you have it installed by making sure you are using a nodejs version later than 16.17.0 and have set
 
 ```
 corepack enable
