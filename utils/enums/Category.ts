@@ -1,0 +1,18 @@
+export enum Category {
+    Fundamentals = "Fundamentals",
+    Coverage = "Coverage",
+    DriveSide = "Drive Side",
+    LicensePlates = "License Plates",
+    GoogleCar = "Google Car",
+    FollowCar = "Follow Car",
+    CameraGen = "Camera Gen",
+    Bollards = "Bollards",
+    RoadMarkings = "Road Markings",
+    Signs = "Signs",
+    GuardRails = "Guard Rails",
+    Poles = "Poles",
+    Language = "Language",
+    StreetSuffix = "Street Suffix",
+    PhoneNumber = "Phone Number",
+    OtherTips = "Other Tips",
+}

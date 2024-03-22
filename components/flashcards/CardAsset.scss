@@ -1,0 +1,63 @@
+#fullCard {
+  background-color: #EDEDED;
+  max-width: 1200px;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000000;
+  perspective: 1000px;
+  border-radius: 5rem;
+  overflow: hidden;
+  box-shadow: 10px #888888;
+}
+#cardContents {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+.cardFlipped {
+  transform: rotateY(180deg);
+}
+#cardFront,
+#cardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+#cardFront {
+  background-color: #ffffff;
+}
+#cardBack {
+  background-color: #EDEDED;
+  transform: rotateY(180deg);
+  padding: 2rem;
+  max-width: 700px;
+  align-self: center;
+}
+#flashCardImgContainer {
+  min-height: 92.5%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ededed;
+}
+#flashCardImg {
+  max-height: 92.5%;
+  min-width: 100%;
+  object-fit: contain;
+  border-bottom: 1px solid #000000;
+}
+#flipText {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.answer {
+  font-size: 30px;
+  margin-bottom: 1rem;
+  align-self: center;
+}

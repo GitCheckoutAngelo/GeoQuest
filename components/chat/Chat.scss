@@ -1,0 +1,28 @@
+.dot {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    background-color: #4BB8F2;
+    border-radius: 2.5px
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #D3D3D3; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }

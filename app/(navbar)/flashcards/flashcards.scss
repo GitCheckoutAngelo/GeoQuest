@@ -1,0 +1,20 @@
+#cardInformation {
+  padding: 1rem;
+}
+#cardInformation {
+  flex: 8;
+  align-self: center;
+  margin-left: 2rem;
+}
+#cardBar {
+  width: 100%;
+  font-size: 24px;
+  align-items: center;
+  margin-top: 2rem;
+}
+.cardBarIcon {
+  cursor: pointer;
+}
+.shuffleActive {
+  color: blue;
+}

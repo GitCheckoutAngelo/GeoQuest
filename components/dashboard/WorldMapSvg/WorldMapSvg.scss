@@ -1,0 +1,126 @@
+// Region Fill
+path { 
+    transition: fill .4s ease; 
+}
+
+// ALL REGIONS
+.region {
+    fill: #ffffff00;
+    cursor: pointer;
+    text {
+        transition: fill .4s ease;
+        user-select: none;
+    }
+}
+
+.region:active {
+    transform: scale(1.02);
+    transition: 0.1s ease;
+}
+
+// NORTH AMERICA
+.north-america:hover {
+    fill: #3278e2;
+    transform-origin: 35% 70%;
+    text { fill: white; }
+}
+
+.north-america:active {
+    transform-origin: 35% 60%;
+}
+
+.north-america.selected {
+    fill: #3278e2;
+    text { fill: white; }
+}
+
+// SOUTH AMERICA
+.south-america:hover {
+    fill: #f59746;
+    transform-origin: 40% 85%;
+    text { fill: white; }
+}
+
+.south-america:active {
+    transform-origin: 40% 85%;
+}
+
+.south-america.selected {
+    fill: #f59746;
+    text { fill: white; }
+}
+
+// EUROPE
+.europe:hover {
+    fill: #dc5050;
+    transform-origin: 50% 50%;
+    text { fill: white; }
+}
+
+.europe:active {
+    transform-origin: 50% 50%;
+}
+
+.europe.selected {
+    fill: #dc5050;
+    text { fill: white; }
+}
+
+// AFRICA
+.africa:hover {
+    fill: #77d13a;
+    transform-origin: 50% 85%;
+    text { fill: white; }
+}
+
+.africa:active {
+    transform-origin: 50% 85%;
+}
+
+.africa.selected {
+    fill: #77d13a;
+    text { fill: white; }
+}
+
+// ASIA
+.asia:hover {
+    fill: #f9db39;
+    transform-origin: 70% 70%;
+    text { fill: black; }
+}
+
+.asia:active {
+    transform-origin: 70% 70%;
+}
+
+.asia.selected {
+    fill: #f9db39;
+    text { fill: black; }
+}
+
+// OCEANIA
+.oceania:hover {
+    fill: #4bb8f2;
+    transform-origin: 90% 100%;
+    text { fill: black; }
+}
+
+.oceania:active {
+    transform-origin: 90% 100%;
+}
+
+.oceania.selected {
+    fill: #4bb8f2;
+    text { fill: black; }
+}
+
+// Push Pin
+@keyframes jump {
+    0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+    40%  {transform: translate3d(0,3%,0) scale3d(.7,1.5,1);}
+    100% {transform: translate3d(0,10%,0) scale3d(1.5,.7,1);}
+}
+
+.jump {
+  animation: jump 0.15s linear alternate;
+}

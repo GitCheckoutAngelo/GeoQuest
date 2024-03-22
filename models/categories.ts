@@ -1,0 +1,17 @@
+export type Categories =
+  | 'fundamentals'
+  | 'coverage'
+  | 'drive-side'
+  | 'license-plate'
+  | 'google-car'
+  | 'follow-cars'
+  | 'camera-gen'
+  | 'bollards'
+  | 'road-markings'
+  | 'signs'
+  | 'guard-rail'
+  | 'poles'
+  | 'language'
+  | 'street-suffix'
+  | 'phone-no'
+  | 'other-tips';
